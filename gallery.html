@@ -3,34 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <title>Gallery - Dee Local</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link rel="stylesheet" href="style.css">
-  <style>
-    /* Simple gallery grid */
-    .gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-      padding: 20px;
-    }
-    .gallery img {
-      width: 100%;
-      height: auto;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-    }
-    .caption {
-      text-align: center;
-      margin-top: 8px;
-      font-style: italic;
-    }
-    .shortVids{
-     display: flex;
-     flex-wrap: wrap;
-     gap: 30px;     
-    }
-  </style>
+
 </head>
-<body class="gallery-page">
+
+ <body class="gallery-page">
   <header>
     <h1>Dee's Local Bar & Pastries</h1>
     <nav>
@@ -41,8 +20,8 @@
       <a href="contact.html">Contact Us</a>
     </nav>
   </header>
-
-  <main>
+<main class="container"></main>
+  
     <h2>Our Gallery</h2>
     <p>Take a look at some of our delicious products and beautiful event setups.</p>
 
@@ -68,8 +47,8 @@
         <div class="caption">Birthday Cake</div>
       </div>
     </div>
-<br>
-<div class="gallery">
+ <br>
+ <div class="gallery">
       <div>
         <img src="images/Chilled Pineaple Juice.jpeg" alt="Chilled Pineaple Juice">
         <div class="caption">Pineaple Juice</div>
@@ -80,7 +59,7 @@
       </div>
       <div>
         <img src="images/Mango juice ad socialmedia.jpg" alt="Bottled Mango Juice Picture">
-        <div class="caption">Sobolo Drink</div>
+        <div class="caption">Mango Juice</div>
       </div>
       <div>
         <img src="images/Spring Roll.jpeg" alt="Spring Rolls">
@@ -107,15 +86,15 @@
         <div class="caption">Plantain chips</div>
       </div>
       <div>
-        <img src="images/Variety pic.jpeg" alt="Spring Rolls">
-        <div class="caption">Spring Rolls</div>
+        <img src="images/Variety pic.jpeg" alt="Variety of products">
+        <div class="caption">Variety </div>
       </div>
       <div>
         <img src="images/Table setup.jpeg" alt="Wedding Setup">
         <div class="caption">Wedding Setup</div>
       </div>
     </div>
-<br><br>
+ <br><br>
     <div class="shortVids">
       <video controls width="320" height="240" 
       src="images/WhatsApp Video 2025-12-26 at 6.18.35 PM.mp4"> CEO pouring Sobolo
@@ -133,10 +112,11 @@
     src="images/Bday Cake.mp4">
     </video>
     </div>
-  </main>
-<br>
+</main>
+ <br>
   <footer>
     <p>&copy; 2025 Dee Local | Contact: 0576 006 091 / 0543 457 357 | Odupong Ofaakor, Kasoa</p>
   </footer>
+
 </body>
 </html>
